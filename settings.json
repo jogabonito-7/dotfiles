@@ -1,0 +1,63 @@
+{
+  //appearance
+  "editor.fontFamily": "'GeistMono Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+  "editor.accessibilitySupport": "off",
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Catppuccin Frappé",
+  //"workbench.activityBar.location": "hidden",
+  "workbench.editor.showTabs": "single",
+  "workbench.tips.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.sideBar.location": "right",
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.compactFolders": false,
+  "explorer.decorations.badges": false,
+  "git.decorations.enabled": false,
+  "window.zoomLevel": 3,
+  "window.title": "${rootName}",
+  "chat.commandCenter.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.navigationControl.enabled": false,
+  "window.commandCenter": false,
+  //editor
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "block",
+  "editor.lineNumbers": "relative",
+  "editor.tabSize": 4,
+  "editor.detectIndentation": false,
+  //misc
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+  },
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "workbench.externalBrowser": "chrome",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "html": true,
+  },
+  "workbench.startupEditor": "none",
+  "aws.cloudformation.telemetry.enabled": false,
+  "java.imports.gradle.wrapper.checksums": [
+    {
+      "sha256": "b3a875ddc1f044746e1b1a55f645584505f4a10438c1afea9f15e92a7c42ec13",
+      "allowed": true,
+    },
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+}
