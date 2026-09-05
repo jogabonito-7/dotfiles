@@ -1,0 +1,81 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "alt+f1",
+        "command": "-editor.action.accessibilityHelp",
+        "when": "!accessibilityHelpIsShown"
+    },
+    {
+        "key": "alt+f3",
+        "command": "-editor.action.dirtydiff.next",
+        "when": "editorTextFocus && !textCompareEditorActive"
+    },
+    {
+        "key": "cmd+f3",
+        "command": "-editor.action.nextSelectionMatchFindAction",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+m",
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": ""
+    },
+    {
+        "key": "cmd+shift+j",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalIsOpen"
+    },
+    {
+        "key": "cmd+shift+k",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalIsOpen"
+    },
+    {
+        "key": "cmd+shift+t",
+        "command": "workbench.action.terminal.newInActiveWorkspace",
+        "when": "terminalIsOpen"
+    },
+    {
+        "key": "cmd+shift+z",
+        "command": "workbench.action.terminal.killActiveTab",
+        "when": "terminalIsOpen"
+    },
+    {
+        "key": "cmd+h",
+        "command": "notifications.focusToasts"
+    },
+    {
+        "key": "cmd+up",
+        "command": "cursorMove",
+        "args": {
+            "to": "up",
+            "by": "line",
+            "value": 12
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+down",
+        "command": "cursorMove",
+        "args": {
+            "to": "down",
+            "by": "line",
+            "value": 12
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.switchWindow",
+    },
+    {
+        "key": "alt+w",
+        "command": "workbench.action.switchWindow",
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "editor.action.triggerSuggest",
+        "when" : "editorTextFocus"
+    }
+
+]
